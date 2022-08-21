@@ -16,5 +16,5 @@ class Level(models.Model):
     course_ids = fields.One2many(
         comodel_name='delficourse.pendaftaran',
         inverse_name='level_belajar',
-        string='Course Ids',
+        string='Daftar Kursus',
         required=False)
