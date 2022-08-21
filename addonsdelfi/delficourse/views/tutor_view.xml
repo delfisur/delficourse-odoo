@@ -15,7 +15,7 @@
 
     <!-- Inherit Form View to Modify it -->
     <record id="delficourse_tutor_form_inherit" model="ir.ui.view">
-        <field name="name">Tutor inherit ke formrespartner</field>
+        <field name="name">Tutor inherit formrespartner</field>
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
